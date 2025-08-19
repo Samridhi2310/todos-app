@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# 📝 To Do App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and responsive **To-Do List application** built with **React** and **TailwindCSS**, using a **mock API** for task management.  
+This app allows you to add, edit, mark as complete/incomplete, delete, and filter tasks efficiently.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
+- ✅ Add new tasks  
+- ✏️ Edit existing tasks  
+- 🔄 Mark tasks as **complete** or revert them to **incomplete**  
+- 🗑️ Delete tasks (with confirmation dialog)  
+- 🔍 Filter tasks (**All / Completed / Incomplete**)  
+- 📅 Tasks sorted by newest first  
+- ⚡ Fully responsive design (mobile, tablet, desktop)  
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🗂️ Project Structure
+frontend/
+│── public/ # Static files
+│── src/
+│ ├── components/ # Reusable UI components
+│ │ ├── AddNewTaskModal.jsx
+│ │ ├── ConfirmDialog.jsx
+│ │ ├── EditTaskModal.jsx
+│ │ ├── FilterBar.jsx
+│ │ ├── TaskItem.jsx
+│ │ └── modal.css
+│ ├── api.js # Mock API integration
+│ ├── App.js # Main app component
+│ ├── App.css
+│ ├── index.js # Entry point
+│ ├── index.css
+│ └── ...
+│── .env # Environment variables
+│── package.json # Project metadata & dependencies
+│── tailwind.config.js # TailwindCSS configuration
+│── README.md # Documentation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##  Tech Stack
+- **Frontend:** React (Hooks)  
+- **Styling:** TailwindCSS  
+- **API:** Mock API (no real backend)  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##  Installation & Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/todo-app.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Navigate into the project folder:
 
-### `npm run eject`
+cd todo-app/frontend
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+Start the project:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm run start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Open the app in your browser:
+👉 http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+📖 Usage
 
-### Analyzing the Bundle Size
+Click Add New Task to create a task.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Use the checkbox to mark tasks as complete or incomplete.
 
-### Making a Progressive Web App
+Click Edit to update task details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Click Delete to remove a task (confirmation required).
 
-### Advanced Configuration
+Use the Filter Bar to switch between All, Completed, and Incomplete tasks.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
