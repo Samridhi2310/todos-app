@@ -1,22 +1,22 @@
-# 📝 To Do App
+#  To Do App
 
 A simple and responsive **To-Do List application** built with **React** and **TailwindCSS**, using a **mock API** for task management.  
 This app allows you to add, edit, mark as complete/incomplete, delete, and filter tasks efficiently.
 
----
 
-## 🚀 Features
-- ✅ Add new tasks  
-- ✏️ Edit existing tasks  
-- 🔄 Mark tasks as **complete** or revert them to **incomplete**  
-- 🗑️ Delete tasks (with confirmation dialog)  
-- 🔍 Filter tasks (**All / Completed / Incomplete**)  
-- 📅 Tasks sorted by newest first  
-- ⚡ Fully responsive design (mobile, tablet, desktop)  
 
----
+#  Features
+- Add new tasks  
+- Edit existing tasks  
+- Mark tasks as **complete** or revert them to **incomplete**  
+- Delete tasks (with confirmation dialog)  
+- Filter tasks (**All / Completed / Incomplete**)  
+- Tasks sorted by newest first  
+- Fully responsive design (mobile, tablet, desktop)  
 
-## 🗂️ Project Structure
+
+
+# Project Structure
 frontend/
 │── public/ # Static files
 │── src/
@@ -39,16 +39,16 @@ frontend/
 │── README.md # Documentation
 
 
----
 
-##  Tech Stack
+
+#Tech Stack
 - **Frontend:** React (Hooks)  
 - **Styling:** TailwindCSS  
 - **API:** Mock API (no real backend)  
 
----
 
-##  Installation & Setup
+
+# Installation & Setup
 1. Clone the repository:
    ```bash
    git clone https://github.com/<your-username>/todo-app.git
@@ -70,9 +70,9 @@ npm run start
 
 
 Open the app in your browser:
-👉 http://localhost:3000
+http://localhost:3000
 
-📖 Usage
+Usage
 
 Click Add New Task to create a task.
 
