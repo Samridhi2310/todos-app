@@ -42,7 +42,7 @@ frontend/
 
 
 #Tech Stack
-- **Frontend:** React (Hooks)  
+- **Frontend:** React.js
 - **Styling:** TailwindCSS  
 - **API:** Mock API (no real backend)  
 
@@ -51,12 +51,12 @@ frontend/
 # Installation & Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/todo-app.git
+   git clone https://github.com/<your-username>/todos-app.git
 
 
 Navigate into the project folder:
 
-cd todo-app/frontend
+cd todos-app/frontend
 
 
 Install dependencies:
