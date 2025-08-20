@@ -56,7 +56,7 @@ frontend/
 
 Navigate into the project folder:
 
-cd todos-app/frontend
+cd todos-app
 
 
 Install dependencies:
